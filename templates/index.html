@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<div class="container">
+	<form>
+		<div class="mb-3">
+			<label for"inputColor" class="form-label">Цвет</label>
+			<input type="color" class="form-control" id="inputColor">
+		</div>
+		<button type="submit" class="btn btn-primary">Отправить</button>
+	</form>
+</div>
+{% endblock %}
